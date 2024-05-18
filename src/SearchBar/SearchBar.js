@@ -3,7 +3,7 @@ import styles from './SearchBar.module.css';
 
 export function SearchBar(props) {
     const [term, setTerm] = useState(props.term || '');
-    const [location, setLocation] = useState(props.location || '');
+    const [location, setLocation] = useState(props.location || 'bahawalpur');
 
     function submit(e) {
         if(typeof props.search === 'function') {

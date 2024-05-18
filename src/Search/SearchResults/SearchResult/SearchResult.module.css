@@ -2,11 +2,18 @@
   display: flex;
   max-width: 1135px;
   width: 100%;
+  border-top: 1px solid #E0E0E0;
+  border-bottom: 1px solid #E0E0E0;
+  padding: 20px;
+}
+
+.search-result:hover {
+  box-shadow: 0 0 11px rgba(33,33,33,.2); 
 }
 
 .business-image {
-  width: 210px;
-  height: 210px;
+  width: 168px;
+  height: 168px;
   border-radius: 4px;
   margin-right: 1rem;
 }
@@ -14,11 +21,50 @@
 .business-info {
   min-width: 400px;
 }
+.business-info h1{
+  font-weight: bolder;
+  color: #2D2E2F;
+  font-size: 20px;
+}
+
+.business-rating > * {
+  font-size: .85rem;
+  color: #FF643D;
+  margin-right: 4px;
+}
+
+.business-rating{
+  background-color: rgb(255, 255, 255);
+  /* margin-right: 220px; */
+  margin-bottom: 4px;
+}
+
+.business-rating p {
+  color: rgb(43,43,43);
+}
 
 .contact-info p {
   font-size: 0.85rem;
+  color: rgb(64, 64, 64);
 }
 
 :global(.tag).business-tag {
   margin-right: 4px;
+  color: #6E7072;
+  font-weight: bold;
+  font-size: 13px;
 }
+:global(.address).business-address {
+  margin-right: 4px;
+  color: #313131;
+  font-weight: 500;
+  font-size: 13px;
+}
+
+.business-rating {
+  background-color: rgb(255, 255, 255);
+  margin-right: 220px;
+}
+
+
+/* Rating CSS updated */

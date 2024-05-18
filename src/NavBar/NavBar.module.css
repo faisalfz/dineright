@@ -1,12 +1,12 @@
 .nav-bar {
     display: flex;
-    background: #d32323;
+    background: #c2e6ff;
     padding: 1rem 0;
     align-items: center;
     justify-content: center;
 }
 .logo {
-    width: 75px;
+    width: 105px;
     margin-right: 1rem;
 }
 
